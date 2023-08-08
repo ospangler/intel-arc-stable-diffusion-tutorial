@@ -19,10 +19,10 @@ wsl --set-default-version 2
 ```
 wsl --update
 ```
+Note: If you've already been playing around with wsl and want to start with a fresh instalation, run ```wsl --unregister ubuntu``` first before installing.
 ```
 wsl --install ubuntu
 ```
-Note: If you've already been playing around with wsl and want to start with a fresh instalation, run ```wsl --unregister ubuntu``` first before installing.
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
 ```
