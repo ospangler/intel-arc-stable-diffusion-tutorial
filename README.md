@@ -147,8 +147,7 @@ sudo update-grub
 sudo reboot
 ```
 
-**close powershell and DO A FULL RESTART OF YOUR PC**
-**if you don't, the wsl enviroment will be unstable**
+**close powershell and DO A FULL RESTART OF YOUR PC. If you don't, the wsl enviroment will be unstable**
 
 reopen powershell after restarting
 
