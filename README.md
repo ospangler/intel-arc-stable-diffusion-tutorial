@@ -203,3 +203,21 @@ After doing this, you should be able to click on the link that appears in the co
 You should watch the tutorial from Archive on how to set up wslconfig, exporting your image, and common error messages.
 https://youtu.be/ub9150aOMMc?t=307
 
+#---To Run Vladmandic After Installation---
+
+open powershell
+
+```
+wsl
+```
+```
+cd
+```
+```
+cd automatic
+```
+```
+./webui.sh --use-ipex
+```
+
+navigate to http://127.0.0.1:7860/ in your browser
