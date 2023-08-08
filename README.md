@@ -1,4 +1,4 @@
-# wsl_stablediffusion_tutorial
+# intel-arc-stable-diffusion-tutorial
 
 ## Tutorial in a Video Format: https://www.youtube.com/watch?v=GZLjbTPLCVk
 
