@@ -190,8 +190,7 @@ ls
 ./webui.sh --use-ipex
 ```
 
-WAIT A LONG TIME. If no progress for awhile (more than 10 minutes), use ctrl+C and then run ./webui.sh --use-ipex again
-Keep in mind that it can take awhile to update which packages have been installed and the process can take pretty slow so don't get too impatient.
+WAIT A LONG TIME. If no progress for awhile (more than 10 minutes), use ctrl+C to break and then run ./webui.sh --use-ipex again. Keep in mind that it can take awhile to update which packages have been installed and the process can take pretty slow so don't get too impatient.
 
 download default model : yes
 
