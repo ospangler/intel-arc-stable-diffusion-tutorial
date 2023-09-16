@@ -185,6 +185,8 @@ wait for install to complete
 
 click finish
 
+If you had issues installing the OneAPI toolkit, you can install it exclusively through the command line using APT, as described here: https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=aptpackagemanager
+
 ## ---Step 4: Vladmandic Installation-----
 ```
 cd
@@ -198,7 +200,7 @@ ls
 ```
 ./webui.sh --use-ipex
 ```
-
+Before leaving your computer, make sure you've turned off sleep in your system settings. The install will mess up if you leave your computer and the computer decides to go to sleep during it.
 WAIT A LONG TIME. If no progress for awhile (more than 10 minutes), use ctrl+C to break and then run ./webui.sh --use-ipex again. Keep in mind that it can take awhile to update which packages have been installed and the process can take pretty slow so don't get too impatient.
 
 download default model : yes
