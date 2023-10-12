@@ -7,13 +7,18 @@ Note: This tutorial is intended to help users install Stable Diffusion on PCs us
 ## ---Step 1: Initial Setup---
 **Before starting, it's reccomeneded to setup the wslconfig file to prevent WSL from using up all of your RAM. follow this tutorial https://youtu.be/ub9150aOMMc?t=310.**
 
+Still having issues with WSL using up all your RAM? Add the following two lines to your WSLconfig File as detailed in https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/:
+
+```
+[experimental]
+experimental.autoMemoryReclaim=dropcache
+```
+
 **If you run into random errors or instability using WSL, use the ```sudo reboot``` command, then in powershell use the ```wsl -t ubuntu``` command to terminate the virtual machine. Then start wsl again by typing ```wsl``` into powershell.**
 
-First Step: Turn on windows virtual machine and windows subsystem for linux in Windows features.
+First Step: Turn on ```Windows Virtual Machine``` and ```Windows Subsystem for Linux``` in Windows Features. See https://learn.microsoft.com/en-us/windows/wsl/install if you have no clue what you're doing.
 
-See https://learn.microsoft.com/en-us/windows/wsl/install if you have no clue what you're doing.
-
-open powershell
+Okay, lets begin and open powershell
 
 ```
 wsl --set-default-version 2
