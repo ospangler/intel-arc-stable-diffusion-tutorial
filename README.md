@@ -215,9 +215,7 @@ WAIT A LONG TIME. If no progress for awhile (more than 10 minutes), use ctrl+C t
 
 download default model : yes
 
-I had to manually do it, ctrl click link, download, then use file exporer to go to \\wsl.localhost\Ubuntu\home\{user}\automatic\models\Stable-diffusion
-
-After doing this, you should be able to click on the link that appears in the console. You've done it, yay! :)
+IF Downloading the Default Model Freezes/Does Not Work: I had to manually do it, ctrl click link, download, then use file exporer to go to \\wsl.localhost\Ubuntu\home\{user}\automatic\models\Stable-diffusion. If this still doesn't fix the issue, you may have to completely start over, get to this point again, then say 'No' when asked to download the default model. Then add the saftensors file to the correct location yourself. Download the safetensor file from HuggingFace, and place it in \\wsl.localhost\Ubuntu\home\{user}\automatic\models\Stable-diffusion: https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.safetensors
 
 **I would highly reccomend setting up the wslconfig file, otherwise you're likely to run into memory leak issues and crashes when that inevitably happens**
 
