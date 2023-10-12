@@ -64,10 +64,17 @@ Run ```lsb_release -a``` to check if Ubuntu version is >23.04, if not you have t
 ```
 wget -qO - https://repositories.intel.com/graphics/intel-graphics.key | \
   sudo gpg --dearmor --output /usr/share/keyrings/intel-graphics.gpg
+```
+
+```
 echo "deb [arch=amd64,i386 signed-by=/usr/share/keyrings/intel-graphics.gpg] https://repositories.intel.com/graphics/ubuntu jammy arc" | \
   sudo tee /etc/apt/sources.list.d/intel-gpu-jammy.list
+```
+
+```
 sudo apt-get update
 ```
+
 ```
 sudo apt-get install -y \
   intel-opencl-icd intel-level-zero-gpu level-zero \
@@ -174,7 +181,7 @@ cd
 **Source: https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html**
 
 ```
-wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/992857b9-624c-45de-9701-f6445d845359/l_BaseKit_p_2023.2.0.49397_offline.sh
+sudo wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/992857b9-624c-45de-9701-f6445d845359/l_BaseKit_p_2023.2.0.49397_offline.sh
 ```
 ```
 sudo sh ./l_BaseKit_p_2023.2.0.49397_offline.sh
