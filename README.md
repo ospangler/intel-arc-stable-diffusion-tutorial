@@ -11,7 +11,7 @@ Still having issues with WSL using up all your RAM? Add the following two lines 
 
 ```
 [experimental]
-experimental.autoMemoryReclaim=dropcache
+autoMemoryReclaim=dropcache
 ```
 
 **If you run into random errors or instability using WSL, use the ```sudo reboot``` command, then in powershell use the ```wsl -t ubuntu``` command to terminate the virtual machine. Then start wsl again by typing ```wsl``` into powershell.**
