@@ -7,7 +7,7 @@ Note: This tutorial is intended to help users install Stable Diffusion on PCs us
 ## ---Step 1: Initial Setup---
 **Before starting, it's reccomeneded to setup the wslconfig file to prevent WSL from using up all of your RAM. follow this tutorial https://youtu.be/ub9150aOMMc?t=310.**
 
-Still having issues with WSL using up all your RAM? Add the following two lines to your WSLconfig File as detailed in https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/:
+Advanced Users: Still having issues with WSL using up all your RAM? Add the following to your WSL installation: https://gist.github.com/craigloewen-msft/496078591e0bbbfdec9f144c6b50a8cc as described here: https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update
 
 ```
 [experimental]
