@@ -7,13 +7,6 @@ Note: This tutorial is intended to help users install Stable Diffusion on PCs us
 ## ---Step 1: Initial Setup---
 **Before starting, it's reccomeneded to setup the wslconfig file to prevent WSL from using up all of your RAM. follow this tutorial https://youtu.be/ub9150aOMMc?t=310.**
 
-Advanced Users: Still having issues with WSL using up all your RAM? Add the following to your WSL installation: https://gist.github.com/craigloewen-msft/496078591e0bbbfdec9f144c6b50a8cc as described here: https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update. You'll need a pre-release version of WSL, which can be done by using the ```wsl --update --pre-release``` command before updating the wslconfig file.
-
-```
-[experimental]
-autoMemoryReclaim=dropcache
-```
-
 **If you run into random errors or instability using WSL, use the ```sudo reboot``` command, then in powershell use the ```wsl -t ubuntu``` command to terminate the virtual machine. Then start wsl again by typing ```wsl``` into powershell.**
 
 First Step: Turn on ```Windows Virtual Machine``` and ```Windows Subsystem for Linux``` in Windows Features. See https://learn.microsoft.com/en-us/windows/wsl/install if you have no clue what you're doing.
@@ -240,3 +233,11 @@ cd automatic
 ```
 
 navigate to http://127.0.0.1:7860/ in your browser
+
+
+Advanced Users: Still having issues with WSL using up all your RAM? Add the following to your WSL installation: https://gist.github.com/craigloewen-msft/496078591e0bbbfdec9f144c6b50a8cc as described here: https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update. You'll need a pre-release version of WSL, which can be done by using the ```wsl --update --pre-release``` command before updating the wslconfig file.
+
+```
+[experimental]
+autoMemoryReclaim=dropcache
+```
