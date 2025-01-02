@@ -176,10 +176,10 @@ cd
 **Source: https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html**
 
 ```
-sudo wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/992857b9-624c-45de-9701-f6445d845359/l_BaseKit_p_2023.2.0.49397_offline.sh
+sudo wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/dfc4a434-838c-4450-a6fe-2fa903b75aa7/intel-oneapi-base-toolkit-2025.0.1.46_offline.sh
 ```
 ```
-sudo sh ./l_BaseKit_p_2023.2.0.49397_offline.sh
+sudo sh ./intel-oneapi-base-toolkit-2025.0.1.46_offline.sh
 ```
 
 ignore warnings for missing gui
