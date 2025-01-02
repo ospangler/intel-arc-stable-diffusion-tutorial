@@ -20,8 +20,10 @@ wsl --set-default-version 2
 wsl --update
 ```
 > Note: If you've already been playing around with wsl and want to start with a fresh instalation, run ```wsl --unregister ubuntu``` first before installing.
+>
+> IMPORTANT!!!: Since the creation of this tutorial, the default installation version of Ubuntu has been updated to v24. This Ubuntu version will break this method of installation. instead, run ```wsl --list --online``` and then install an earlier listed version of ubuntu. The command below in this tutorial will work, but the video will be wrong!
 ```
-wsl --install ubuntu
+wsl --install Ubuntu-22.04
 ```
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
