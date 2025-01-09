@@ -1,5 +1,8 @@
 # intel-arc-stable-diffusion-tutorial
 
+## THIS TUTORIAL CURRENTLY DOES NOT WORK
+Please join the Intel Insiders Discord Server Instead for Support at https://discord.gg/intel
+
 ## Tutorial in a Video Format: https://www.youtube.com/watch?v=GZLjbTPLCVk
 
 Note: This tutorial is intended to help users install Stable Diffusion on PCs using an Intel Arc A770 or Intel Arc A750 graphics card. While all commands work as of 8/7/2023, updates may break these commands in the future. I encourage people following this tutorial to check the links included for each step and following the instructions on Intel's website if these commands are not working for you. Also keep in mind that this is not a comprehensive tutorial with optimizations, you will experience memory leak issues unless you create your wslconfig file.
